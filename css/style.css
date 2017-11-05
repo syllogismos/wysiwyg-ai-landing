@@ -1,9 +1,9 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 /*
  *
  *   INSPINIA Landing Page - Responsive Admin Theme
  *
 */
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
@@ -11,17 +11,17 @@ body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 span.navy {
-  color: #1ab394;
+  color: #ffa000;
 }
 p.text-color {
   color: #676a6c;
 }
 a.navy-link {
-  color: #1ab394;
+  color: #ffa000;
   text-decoration: none;
 }
 a.navy-link:hover {
-  color: #17a185;
+  color: #eb9300;
 }
 section p {
   color: #aeaeae;
@@ -39,10 +39,10 @@ h1 {
   width: 60px;
   height: 1px;
   margin: 60px auto 0;
-  border-bottom: 2px solid #1ab394;
+  border-bottom: 2px solid #ffa000;
 }
 .navy-bg {
-  background-color: #1ab394;
+  background-color: #ffa000;
   color: #ffffff;
 }
 /* CUSTOMIZE THE NAVBAR
@@ -88,10 +88,10 @@ h1 {
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
   color: #fff;
-  border-top: 6px solid #1ab394;
+  border-top: 6px solid #ffa000;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1ab394;
+  color: #ffa000;
 }
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
@@ -103,7 +103,7 @@ h1 {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  background: #17a185;
+  background: #eb9300;
   color: #fff;
 }
 .navbar-default .navbar-brand {
@@ -111,7 +111,7 @@ h1 {
   height: auto;
   display: block;
   font-size: 14px;
-  background: #1ab394;
+  background: #ffa000;
   padding: 15px 20px 15px 20px;
   border-radius: 0 0px 5px 5px;
   font-weight: 700;
@@ -121,7 +121,7 @@ h1 {
   color: #676a6c;
 }
 .navbar-scroll.navbar-default .nav li a:hover {
-  color: #1ab394;
+  color: #ffa000;
 }
 .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -149,10 +149,10 @@ h1 {
   width: 100%;
 }
 .header-back.one {
-  background: url('../img/header_one.jpg') 50% 0 no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/neurons.jpg') 50% 0 no-repeat;
 }
 .header-back.two {
-  background: url('../img/header_two.jpg') 50% 0 no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/lamp2.jpg') 50% 0 no-repeat;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -277,7 +277,7 @@ h1 {
   margin-top: 40px;
 }
 .features small {
-  color: #1ab394;
+  color: #ffa000;
 }
 .features h2 {
   font-size: 18px;
@@ -290,12 +290,12 @@ h1 {
   font-weight: 200;
 }
 .features-icon {
-  color: #1ab394;
+  color: #ffa000;
   font-size: 40px;
 }
 .navy-section {
   margin-top: 60px;
-  background: #1ab394;
+  background: #ffa000;
   color: #fff;
   padding: 20px 0;
 }
@@ -310,7 +310,7 @@ h1 {
   margin: auto;
 }
 .social-icon a {
-  background: #1ab394;
+  background: #ffa000;
   color: #fff;
   padding: 4px 8px;
   height: 28px;
@@ -319,7 +319,7 @@ h1 {
   border-radius: 50px;
 }
 .social-icon a:hover {
-  background: #17a185;
+  background: #eb9300;
 }
 .img-small {
   height: 88px;
@@ -341,7 +341,7 @@ h1 {
 }
 .pricing-plan .pricing-price span {
   font-weight: 700;
-  color: #1ab394;
+  color: #ffa000;
 }
 li.pricing-desc {
   font-size: 13px;
@@ -349,7 +349,7 @@ li.pricing-desc {
   padding: 20px 16px ;
 }
 li.pricing-title {
-  background: #1ab394;
+  background: #ffa000;
   color: #fff;
   padding: 10px;
   border-radius: 4px 4px 0 0;
@@ -359,14 +359,14 @@ li.pricing-title {
 .testimonials {
   padding-top: 80px;
   padding-bottom: 90px;
-  background-color: #1ab394;
+  background-color: #ffa000;
   background-image: url('../img/avatar_all.png');
 }
 .big-icon {
   font-size: 56px;
 }
 .features .big-icon {
-  color: #1ab394;
+  color: #ffa000;
 }
 .contact {
   background-image: url('../img/word_map.png');
@@ -384,8 +384,8 @@ li.pricing-title {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #ffa000;
+  border-color: #ffa000;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
@@ -396,8 +396,8 @@ li.pricing-title {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #f09600;
+  border-color: #f09600;
   color: #FFFFFF;
 }
 .btn-primary:active,
@@ -420,8 +420,8 @@ fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #1dc5a3;
-  border-color: #1dc5a3;
+  background-color: #ffa814;
+  border-color: #ffa814;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -482,7 +482,7 @@ fieldset[disabled] .btn-primary.active {
     color: #676a6c;
   }
   .navbar-default .nav li a:hover {
-    color: #1ab394;
+    color: #ffa000;
   }
   .navbar-wrapper .navbar {
     padding-top: 0;
@@ -969,7 +969,7 @@ section.comments {
   font-weight: 500;
 }
 .vertical-date small {
-  color: #1ab394;
+  color: #ffa000;
   font-weight: 400;
 }
 .vertical-timeline-content::before {
