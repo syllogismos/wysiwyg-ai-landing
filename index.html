@@ -48,6 +48,26 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                facebook: "1916823128582494", // Facebook page ID
+                whatsapp: "+918800532550", // WhatsApp number
+                email: "anil@eschernode.com", // Email
+                company_logo_url: "//scontent.xx.fbcdn.net/v/t1.0-1/p100x100/22853088_1916823198582487_9162108637057196490_n.png?oh=50e01f049de0c8994008ca4a26ddd9ab&oe=5A7BFEB3", // URL of company logo (png, jpg, gif)
+                greeting_message: "Hello, message us your email for beta invite or ask for any further assistance.", // Text of greeting message
+                call_to_action: "Message us for beta invite!", // Call to action
+                button_color: "#FF6550", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "facebook,whatsapp,email" // Order of buttons
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
 </head>
 <body id="page-top">
 
@@ -132,23 +152,23 @@
     <div class="row">
         <div class="col-sm-3">
             <h2>Escherboard</h2>
-            <p>A neural network editor where you can create any type of deep learning architecture with simple mouse clicks. This enables you to come </p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p>Escherboard is our neural network editor, which helps you in coming up with neural network architechtures. This way you can iterate faster on different neural networks. Currently we support any directional acyclic graph made with the layers with valid config.</p>
+            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
         </div>
         <div class="col-sm-3">
             <h2>Dataset Pipeline</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p>You simply give us the data location, we upload it and preprocess according to the transforms applied and save it. We download this data to the respective machine you start a new experiment training on this dataset.</p>
+            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
         </div>
         <div class="col-sm-3">
             <h2>Hyperparameter search</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p>While starting an experiment, you can essentially give us a comma seperated values of what a hyperparmeter should be and we start training on all the variants of the experiment simultaneously and present you the training results.</p>
+            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
         </div>
         <div class="col-sm-3">
             <h2>Notifications</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p>Once the training started, you can enable notifications based on an error metric threshold. You can also get notifications during events like gradients vanishing or compute resources being underutilized of a given variant.</p>
+            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
         </div>
     </div>
 </section>
@@ -164,14 +184,14 @@
     <div class="row">
         <div class="col-md-3 text-center wow fadeInLeft">
             <div>
-                <i class="fa fa-mobile features-icon"></i>
+                <i class="fa fa-anchor features-icon"></i>
                 <h2>Transfer Learning</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <p>You can load existing models on to the escherboard along with their trained weights, and build up on that network, to come up with new features and models.</p>
             </div>
             <div class="m-t-lg">
-                <i class="fa fa-bar-chart features-icon"></i>
-                <h2>Model export</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <i class="fa fa-cubes features-icon"></i>
+                <h2>Diverse Infrastructure</h2>
+                <p>Depending on the type of the problem and the size of the datasets, you can decide what type of infrastructure a given experiment should be run.</p>
             </div>
         </div>
         <div class="col-md-6 text-center  wow zoomIn">
@@ -184,14 +204,15 @@
         </div>
         <div class="col-md-3 text-center wow fadeInRight">
             <div>
-                <i class="fa fa-envelope features-icon"></i>
+                <i class="fa fa-line-chart features-icon"></i>
                 <h2>Realtime Debugging</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <p>During training, you can understand visually how the gradients are propagating through the network so that you can debug things like vanishing gradients. You are also presented with data that show you how efficiently compute resources are being used.</p>
             </div>
+            
             <div class="m-t-lg">
-                <i class="fa fa-google features-icon"></i>
-                <h2>Diverse Infrastructure</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <i class="fa fa-external-link features-icon"></i>
+                <h2>Model export</h2>
+                <p>You can export a model with or without weights at every epoch of the training.</p>
             </div>
         </div>
     </div>
@@ -204,10 +225,10 @@
     </div>
     <div class="row features-block">
         <div class="col-lg-6 features-text wow fadeInLeft">
-            <small>INSPINIA</small>
-            <h2>Perfectly designed </h2>
-            <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge collection of reusable UI components and integrated with latest jQuery plugins.</p>
-            <a href="" class="btn btn-primary">Learn more</a>
+            <small>Based on RLLAB</small>
+            <h2>Agents and Environments</h2>
+            <p>Our reinforcement learning solution is based on OPENAI's gym. You can train various rl algorithms on most of the rl environments from openai gym. You would be able to do hyperparameter search and launch on appropriate machines and get notified about thresholds you are interested in.</p>
+            <!-- <a href="" class="btn btn-primary">Learn more</a> -->
         </div>
         <div class="col-lg-6 text-right wow fadeInRight">
             <img src="img/dashboard.png" alt="dashboard" class="img-responsive pull-right">
@@ -649,6 +670,7 @@
                 <div class="navy-line"></div>
                 <h1>Contact Us</h1>
                 <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+                <p>Please message me for beta invite, and also suggestions and feedback regarding Eschernode. Thank you!</p>
             </div>
         </div>
         <!-- <div class="row m-b-lg">
