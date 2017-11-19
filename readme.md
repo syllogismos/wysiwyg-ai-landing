@@ -8,7 +8,8 @@ After changing the details, run this command to make the changes
 ```s3cmd sync --acl-public --exclude=.git --exclude=make-website.sh --cf-invalidate --cf-invalidate-default-index ./ s3://www.eschernode.com```
 
 
-
+## Bare domain instructions
+https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/#redirect-bare-domain-to-www
 ## Notes
 This landing page is hosted on S3 and Cloudfront using this script lifted from here https://gist.github.com/tomfuertes/9175005
 ```
