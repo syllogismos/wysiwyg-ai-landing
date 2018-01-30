@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113352389-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113352389-1');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <!-- Add Your favicon here -->
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/eschernode/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/icons/eschernode/apple-icon-60x60.png">
@@ -17,7 +28,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/icons/eschernode/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/icons/eschernode/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/eschernode/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/icons/eschernode/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/eschernode/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/eschernode/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/icons/eschernode/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/eschernode/favicon-16x16.png">
@@ -30,7 +41,7 @@
     <title>Eschernode</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-    
+
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,13 +80,15 @@
         })();
     </script>
 </head>
+
 <body id="page-top">
 
-<div class="navbar-wrapper">
+    <div class="navbar-wrapper">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -85,158 +98,185 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#features">Features</a></li>
-                        <li><a class="page-scroll" href="#workflow">Workflow</a></li>
+                        <li>
+                            <a class="page-scroll" href="#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#workflow">Workflow</a>
+                        </li>
                         <!-- <li><a class="page-scroll" href="#team">Team</a></li> -->
                         <!-- <li><a class="page-scroll" href="#testimonials">Testimonials</a></li> -->
                         <!-- <li><a class="page-scroll" href="#pricing">Pricing</a></li> -->
-                        <li><a class="page-scroll" href="#contact">Contact</a></li>
-                        <li><a class="page-scroll" href="http://app.eschernode.com/pages/login">Login</a></li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://app.eschernode.com/pages/login">Login</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-</div>
+    </div>
 
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>We help you<br/>
-                        with deep learning,<br/>
-                        so you can iterate easily<br/>
-                        and get results faster.</h1>
-                    <p>Train, iterate, debug and deploy deep learning models faster.</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="https://www.producthunt.com/upcoming/eschernode" role="button">Sign up for Beta</a>
-                        <!-- <a class="caption-link" href="#" role="button">Inspinia Theme</a> -->
-                    </p>
+    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#inSlider" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>We help you
+                            <br/> with deep learning,
+                            <br/> so you can iterate easily
+                            <br/> and get results faster.</h1>
+                        <p>Train, iterate, debug and deploy deep learning models faster.</p>
+                        <p>
+                            <a class="btn btn-lg btn-primary" href="https://www.producthunt.com/upcoming/eschernode" role="button">Sign up for Beta</a>
+                            <!-- <a class="caption-link" href="#" role="button">Inspinia Theme</a> -->
+                        </p>
+                    </div>
+                    <div class="carousel-image wow zoomIn">
+                        <img src="img/escherboard.png" style="width:620px" alt="laptop" />
+                    </div>
                 </div>
-                <div class="carousel-image wow zoomIn">
-                    <img src="img/escherboard.png" style="width:620px" alt="laptop"/>
+                <!-- Set background for slide in css -->
+                <div class="header-back one"></div>
+
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption blank">
+                        <h1>We handle the boiler plate,
+                            <br/> so that you don't have to.</h1>
+                        <p>At every stage of the model's lifecycle. </p>
+                        <p>
+                            <a class="btn btn-lg btn-primary" href="#features" class="page-scroll" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back two"></div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section id="features" class="container services">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Escherboard</h2>
+                <p>Escherboard is our neural network editor, which helps you in coming up with neural network architechtures.
+                    This way you can iterate faster on different neural networks. Currently we support any directional acyclic
+                    graph made with the layers with valid config.</p>
+                <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
+            </div>
+            <div class="col-sm-3">
+                <h2>Dataset Pipeline</h2>
+                <p>You simply give us the data location, we upload it and preprocess according to the transforms applied and
+                    save it. We download this data to the respective machine you start a new experiment training on this
+                    dataset.</p>
+                <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
+            </div>
+            <div class="col-sm-3">
+                <h2>Hyperparameter search</h2>
+                <p>While starting an experiment, you can essentially give us a comma seperated values of what a hyperparmeter
+                    should be and we start training on all the variants of the experiment simultaneously and present you
+                    the training results.</p>
+                <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
+            </div>
+            <div class="col-sm-3">
+                <h2>Notifications</h2>
+                <p>Once the training started, you can enable notifications based on an error metric threshold. You can also
+                    get notifications during events like gradients vanishing or compute resources being underutilized of
+                    a given variant.</p>
+                <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container features">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Supervised Learning</h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center wow fadeInLeft">
+                <div>
+                    <i class="fa fa-anchor features-icon"></i>
+                    <h2>Transfer Learning</h2>
+                    <p>You can load existing models on to the escherboard along with their trained weights, and build up on
+                        that network, to come up with new features and models.</p>
+                </div>
+                <div class="m-t-lg">
+                    <i class="fa fa-cubes features-icon"></i>
+                    <h2>Train on cloud</h2>
+                    <p>Depending on the type of the problem and the size of the datasets, you can decide what type of infrastructure
+                        a given experiment should be run.</p>
                 </div>
             </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
+            <div class="col-md-6 text-center  wow zoomIn">
+                <!-- <img src="img/perspective.png" alt="dashboard" class="img-responsive"> -->
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wKRG5pcLO6g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+                <video width="560" height="315" autoplay loop>
+                    <source src="/escherboard.webm" type="video/webm">
+                    <source src="/escherboard.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-3 text-center wow fadeInRight">
+                <div>
+                    <i class="fa fa-line-chart features-icon"></i>
+                    <h2>Realtime Debugging</h2>
+                    <p>During training, you can understand visually how the gradients are propagating through the network so
+                        that you can debug things like vanishing gradients. You are also presented with data that show you
+                        how efficiently compute resources are being used.</p>
+                </div>
 
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                    <h1>We handle the boiler plate, <br/> so that you don't have to.</h1>
-                    <p>At every stage of the model's lifecycle. </p>
-                    <p><a class="btn btn-lg btn-primary" href="#features" class="page-scroll" role="button">Learn more</a></p>
+                <div class="m-t-lg">
+                    <i class="fa fa-external-link features-icon"></i>
+                    <h2>Model export</h2>
+                    <p>You can export a model with or without weights at every epoch of the training.</p>
                 </div>
             </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
         </div>
-    </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Reinforcement Learning</h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p> -->
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-6 features-text wow fadeInLeft">
+                <small>Based on RLLAB</small>
+                <h2>Agents and Environments</h2>
+                <p>Our reinforcement learning solution is based on OPENAI's RLLAB. You can train various rl algorithms on most
+                    of the rl environments from openai gym. You would be able to do hyperparameter search and launch on appropriate
+                    machines and get notified about thresholds you are interested in.</p>
+                <!-- <a href="" class="btn btn-primary">Learn more</a> -->
+            </div>
+            <div class="col-lg-6 text-right wow fadeInRight">
+                <img src="img/dashboard.png" alt="dashboard" class="img-responsive pull-right">
+            </div>
+        </div>
+    </section>
 
-<section id="features" class="container services">
-    <div class="row">
-        <div class="col-sm-3">
-            <h2>Escherboard</h2>
-            <p>Escherboard is our neural network editor, which helps you in coming up with neural network architechtures. This way you can iterate faster on different neural networks. Currently we support any directional acyclic graph made with the layers with valid config.</p>
-            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
-        </div>
-        <div class="col-sm-3">
-            <h2>Dataset Pipeline</h2>
-            <p>You simply give us the data location, we upload it and preprocess according to the transforms applied and save it. We download this data to the respective machine you start a new experiment training on this dataset.</p>
-            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
-        </div>
-        <div class="col-sm-3">
-            <h2>Hyperparameter search</h2>
-            <p>While starting an experiment, you can essentially give us a comma seperated values of what a hyperparmeter should be and we start training on all the variants of the experiment simultaneously and present you the training results.</p>
-            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
-        </div>
-        <div class="col-sm-3">
-            <h2>Notifications</h2>
-            <p>Once the training started, you can enable notifications based on an error metric threshold. You can also get notifications during events like gradients vanishing or compute resources being underutilized of a given variant.</p>
-            <!-- <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p> -->
-        </div>
-    </div>
-</section>
-
-<section  class="container features">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1>Supervised Learning</h1>
-            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p> -->
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3 text-center wow fadeInLeft">
-            <div>
-                <i class="fa fa-anchor features-icon"></i>
-                <h2>Transfer Learning</h2>
-                <p>You can load existing models on to the escherboard along with their trained weights, and build up on that network, to come up with new features and models.</p>
-            </div>
-            <div class="m-t-lg">
-                <i class="fa fa-cubes features-icon"></i>
-                <h2>Train on cloud</h2>
-                <p>Depending on the type of the problem and the size of the datasets, you can decide what type of infrastructure a given experiment should be run.</p>
-            </div>
-        </div>
-        <div class="col-md-6 text-center  wow zoomIn">
-            <!-- <img src="img/perspective.png" alt="dashboard" class="img-responsive"> -->
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wKRG5pcLO6g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-            <video width="560" height="315" autoplay loop>
-                <source src="/escherboard.webm" type="video/webm">
-                <source src="/escherboard.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="col-md-3 text-center wow fadeInRight">
-            <div>
-                <i class="fa fa-line-chart features-icon"></i>
-                <h2>Realtime Debugging</h2>
-                <p>During training, you can understand visually how the gradients are propagating through the network so that you can debug things like vanishing gradients. You are also presented with data that show you how efficiently compute resources are being used.</p>
-            </div>
-            
-            <div class="m-t-lg">
-                <i class="fa fa-external-link features-icon"></i>
-                <h2>Model export</h2>
-                <p>You can export a model with or without weights at every epoch of the training.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1>Reinforcement Learning</h1>
-            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p> -->
-        </div>
-    </div>
-    <div class="row features-block">
-        <div class="col-lg-6 features-text wow fadeInLeft">
-            <small>Based on RLLAB</small>
-            <h2>Agents and Environments</h2>
-            <p>Our reinforcement learning solution is based on OPENAI's RLLAB. You can train various rl algorithms on most of the rl environments from openai gym. You would be able to do hyperparameter search and launch on appropriate machines and get notified about thresholds you are interested in.</p>
-            <!-- <a href="" class="btn btn-primary">Learn more</a> -->
-        </div>
-        <div class="col-lg-6 text-right wow fadeInRight">
-            <img src="img/dashboard.png" alt="dashboard" class="img-responsive pull-right">
-        </div>
-    </div>
-</section>
-
-<!-- <section id="team" class="gray-section team">
+    <!-- <section id="team" class="gray-section team">
     <div class="container">
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
@@ -300,7 +340,7 @@
     </div>
 </section> -->
 
-<!-- <section class="features">
+    <!-- <section class="features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -330,92 +370,117 @@
 
 </section> -->
 
-<section id="workflow" class="timeline gray-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Typical workflow</h1>
-                <p>These are the typical steps involved in making deep learning a breeze using Eschernode.</p>
+    <section id="workflow" class="timeline gray-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Typical workflow</h1>
+                    <p>These are the typical steps involved in making deep learning a breeze using Eschernode.</p>
+                </div>
             </div>
-        </div>
-        <div class="row features-block">
+            <div class="row features-block">
 
-            <div class="col-lg-12">
-                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-align-center"></i>
+                <div class="col-lg-12">
+                    <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                        <div class="vertical-timeline-block">
+                            <div class="vertical-timeline-icon navy-bg">
+                                <i class="fa fa-align-center"></i>
+                            </div>
+
+                            <div class="vertical-timeline-content">
+                                <h2>Escherboard</h2>
+                                <p>Add the layers provided on to the escherboard and build your neural network. Any directional
+                                    acyclic graph formed using the layers with proper config is supported right now. So complex
+                                    architectures like RESNET can be built without writing a single line of code. You can
+                                    save this network in your model zoo.
+                                </p>
+                                <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
+                                <!-- <span class="vertical-date"> Today <br/> <small>Dec 24</small> </span> -->
+                                <span class="vertical-date">Create your neural network
+                                    <br/>
+                                    <small>Step 1</small>
+                                </span>
+                            </div>
                         </div>
 
-                        <div class="vertical-timeline-content">
-                            <h2>Escherboard</h2>
-                            <p>Add the layers provided on to the escherboard and build your neural network. Any directional acyclic graph formed using the layers with proper config is supported right now. So complex architectures like RESNET can be built without writing a single line of code. You can save this network in your model zoo.
-                            </p>
-                            <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
-                            <!-- <span class="vertical-date"> Today <br/> <small>Dec 24</small> </span> -->
-                            <span class="vertical-date">Create your neural network <br/> <small>Step 1</small></span>
-                        </div>
-                    </div>
+                        <div class="vertical-timeline-block">
+                            <div class="vertical-timeline-icon navy-bg">
+                                <i class="fa fa-file-image-o"></i>
+                            </div>
 
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-file-image-o"></i>
-                        </div>
-
-                        <div class="vertical-timeline-content">
-                            <h2>Datasets</h2>
-                            <p>Upload a dataset, or use one of the existing datasets, and create a pipeline to do feature engineering/clean the data to train</p>
-                            <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
-                            <span class="vertical-date"> Create a data pipeline <br/> <small>Step 2</small> </span>
-                        </div>
-                    </div>
-
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-cogs"></i>
+                            <div class="vertical-timeline-content">
+                                <h2>Datasets</h2>
+                                <p>Upload a dataset, or use one of the existing datasets, and create a pipeline to do feature
+                                    engineering/clean the data to train</p>
+                                <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
+                                <span class="vertical-date"> Create a data pipeline
+                                    <br/>
+                                    <small>Step 2</small>
+                                </span>
+                            </div>
                         </div>
 
-                        <div class="vertical-timeline-content">
-                            <h2>Start experiment</h2>
-                            <p>Start the training process using a model from the model zoo and a dataset from datasets. For a single experiment we support at most 9 variants to run at a time. You just specify different values a given parameter takes and we start all the variants.</p>
-                            <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
-                            <span class="vertical-date"> Hyperparameter Sweep <br/> <small>Step 3</small> </span>
-                        </div>
-                    </div>
+                        <div class="vertical-timeline-block">
+                            <div class="vertical-timeline-icon navy-bg">
+                                <i class="fa fa-cogs"></i>
+                            </div>
 
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-bar-chart"></i>
-                        </div>
-
-                        <div class="vertical-timeline-content">
-                            <h2>Results</h2>
-                            <p>You can specify thresholds on loss/rewards and can be notified when those are thresholds are reached. You can track how different variants are doing on the experiment page. You will even be notified when we encounter events like gradients vanishing at a given layer and can be visualized on the GUI.</p>
-                            <span class="vertical-date">Notifications and Results.<br/> <small>Step 4</small></span>
-                        </div>
-                    </div>
-
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-external-link"></i>
+                            <div class="vertical-timeline-content">
+                                <h2>Start experiment</h2>
+                                <p>Start the training process using a model from the model zoo and a dataset from datasets.
+                                    For a single experiment we support at most 9 variants to run at a time. You just specify
+                                    different values a given parameter takes and we start all the variants.</p>
+                                <!-- <a href="#" class="btn btn-xs btn-primary"> More info</a> -->
+                                <span class="vertical-date"> Hyperparameter Sweep
+                                    <br/>
+                                    <small>Step 3</small>
+                                </span>
+                            </div>
                         </div>
 
-                        <div class="vertical-timeline-content">
-                            <h2>Export Model</h2>
-                            <p>You can export the trained weights and use or just enable a rest api on the dashboard that handles the predictions</p>
-                            <span class="vertical-date">Model Export and api.<br/> <small>Step 5</small></span>
+                        <div class="vertical-timeline-block">
+                            <div class="vertical-timeline-icon navy-bg">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+
+                            <div class="vertical-timeline-content">
+                                <h2>Results</h2>
+                                <p>You can specify thresholds on loss/rewards and can be notified when those are thresholds
+                                    are reached. You can track how different variants are doing on the experiment page. You
+                                    will even be notified when we encounter events like gradients vanishing at a given layer
+                                    and can be visualized on the GUI.</p>
+                                <span class="vertical-date">Notifications and Results.
+                                    <br/>
+                                    <small>Step 4</small>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="vertical-timeline-block">
+                            <div class="vertical-timeline-icon navy-bg">
+                                <i class="fa fa-external-link"></i>
+                            </div>
+
+                            <div class="vertical-timeline-content">
+                                <h2>Export Model</h2>
+                                <p>You can export the trained weights and use or just enable a rest api on the dashboard that
+                                    handles the predictions</p>
+                                <span class="vertical-date">Model Export and api.
+                                    <br/>
+                                    <small>Step 5</small>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-
         </div>
-    </div>
 
-</section>
+    </section>
 
-<!-- <section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
+    <!-- <section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
 
     <div class="container">
         <div class="row">
@@ -436,7 +501,7 @@
 
 </section> -->
 
-<!-- <section class="comments gray-section" style="margin-top: 0">
+    <!-- <section class="comments gray-section" style="margin-top: 0">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -504,7 +569,7 @@
 
 </section> -->
 
-<!-- <section class="features">
+    <!-- <section class="features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -545,7 +610,7 @@
 
 </section> -->
 
-<!-- <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
     <div class="container">
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
@@ -663,17 +728,17 @@
 
 </section> -->
 
-<section id="contact" class="gray-section contact">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Contact Us</h1>
-                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
-                <p>Please message me for beta invite, and also suggestions and feedback regarding Eschernode. Thank you!</p>
+    <section id="contact" class="gray-section contact">
+        <div class="container">
+            <div class="row m-b-lg">
+                <div class="col-lg-12 text-center">
+                    <div class="navy-line"></div>
+                    <h1>Contact Us</h1>
+                    <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+                    <p>Please message me for beta invite, and also suggestions and feedback regarding Eschernode. Thank you!</p>
+                </div>
             </div>
-        </div>
-        <!-- <div class="row m-b-lg">
+            <!-- <div class="row m-b-lg">
             <div class="col-lg-3 col-lg-offset-3">
                 <address>
                     <strong><span class="navy">Company name, Inc.</span></strong><br/>
@@ -688,36 +753,48 @@
                 </p>
             </div>
         </div> -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <a href="mailto:anil@eschernode.com" class="btn btn-primary">Send us mail</a>
-                <p class="m-t-sm">
-                    Or follow us on social platform
-                </p>
-                <ul class="list-inline social-icon">
-                    <li><a href="https://twitter.com/2abstract4me"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="https://facebook.com/eschernode"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://github.com/syllogismos"><i class="fa fa-github"></i></a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="mailto:anil@eschernode.com" class="btn btn-primary">Send us mail</a>
+                    <p class="m-t-sm">
+                        Or follow us on social platform
+                    </p>
+                    <ul class="list-inline social-icon">
+                        <li>
+                            <a href="https://twitter.com/2abstract4me">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/eschernode">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/syllogismos">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                    <p>
+                        <strong>&copy; 2017 Eschernode</strong>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; 2017 Eschernode</strong></p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/pace.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/inspinia.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/inspinia.js"></script>
 </body>
+
 </html>
